@@ -1,0 +1,85 @@
+{
+  "name": "KrishnanAnil/courses",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "master",
+  "style": {
+    "name": "Material",
+    "componentSet": {
+      "nav": "nav/DarkAbsoluteNav",
+      "header": "header/GradientHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Roboto, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#212121",
+      "background": "#fff",
+      "primary": "#2196f3",
+      "secondary": "#1565c0",
+      "highlight": "#ff4081",
+      "border": "#e0e0e0",
+      "muted": "#f5f5f5"
+    },
+    "layout": {
+      "centered": true,
+      "bannerHeight": "80vh",
+      "maxWidth": 896
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/KrishnanAnil/courses",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "courses",
+      "subhead": "Course materials for the Data Science Specialization: https://www.coursera.org/specialization/jhudatascience/1",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "courses: Course materials for the Data Science Specialization: https://www.coursera.org/specialization/jhudatascience/1",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "KrishnanAnil",
+          "repo": "courses"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h3>Data Science Specialization</h3>\n<p>These are the course materials for the Johns Hopkins Data Science Specialization on Coursera</p>\n<p><a href=\"https://www.coursera.org/specialization/jhudatascience/1\">https://www.coursera.org/specialization/jhudatascience/1</a></p>\n<p>Materials are under development and subject to change. </p>\n<h3>Contributors</h3>\n<ul>\n<li>Brian Caffo</li>\n<li>Jeff Leek</li>\n<li>Roger Peng</li>\n<li>Nick Carchedi </li>\n<li>Sean Kross</li>\n</ul>\n<h3>License</h3>\n<p>These course materials are available under the Creative Commons Attribution NonCommercial ShareAlike (CC-NC-SA) license (<a href=\"http://www.tldrlegal.com/l/CC-NC-SA\">http://www.tldrlegal.com/l/CC-NC-SA</a>). </p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/KrishnanAnil/courses",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/KrishnanAnil",
+          "text": "KrishnanAnil"
+        }
+      ]
+    }
+  ]
+}
